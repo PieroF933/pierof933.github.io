@@ -1,8 +1,128 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-<head><meta charset="utf-8"><title>Piero</title></head>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Piero Ferrulli — Portfolio</title>
+<meta name="description" content="Portfolio di sviluppo Android: applicativi per pannelli touch, sistemi embedded e interfacce di controllo.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230b0f14'/><rect x='9' y='6' width='14' height='20' rx='3' fill='none' stroke='%23e8a33d' stroke-width='2'/><circle cx='16' cy='22' r='1.6' fill='%23e8a33d'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
 <body>
-  <h1>Piero</h1>
-  <p>Sviluppatore software. Sito in costruzione.</p>
+
+<a class="skip-link" href="#main" data-i18n="ui.skip">Vai al contenuto</a>
+
+<header class="rail">
+  <div class="rail__brand">
+    <span class="rail__mark" aria-hidden="true"></span>
+    <span class="rail__name" data-i18n="profile.name">Piero Ferrulli</span>
+    <span class="rail__role mono" data-i18n="profile.shortRole">Android Developer</span>
+  </div>
+
+  <nav class="rail__nav" aria-label="Sezioni">
+    <a href="#home"       data-nav data-i18n="ui.nav.home">Home</a>
+    <a href="#chi-sono"   data-nav data-i18n="ui.nav.about">Chi sono</a>
+    <a href="#competenze" data-nav data-i18n="ui.nav.stack">Competenze</a>
+    <a href="#progetti"   data-nav data-i18n="ui.nav.projects">Progetti</a>
+    <a href="#percorso"   data-nav data-i18n="ui.nav.experience">Percorso</a>
+    <a href="#contatti"   data-nav data-i18n="ui.nav.contact">Contatti</a>
+  </nav>
+
+  <div class="rail__foot">
+    <div class="langswitch" role="group" aria-label="Lingua / Language">
+      <button type="button" class="langswitch__btn" data-lang="it" aria-pressed="true">IT</button>
+      <button type="button" class="langswitch__btn" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <ul class="rail__links" id="rail-links"></ul>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ── Hero ─────────────────────────────────────────────── -->
+  <section class="section section--hero" id="home">
+    <p class="eyebrow mono" data-i18n="profile.eyebrow">Android · Java · Interfacce embedded</p>
+    <h1 class="hero__title" data-i18n="profile.name">Piero Ferrulli</h1>
+    <p class="hero__role" data-i18n="profile.role">Sviluppatore Android</p>
+    <p class="hero__text" data-i18n="profile.tagline">Progetto e sviluppo applicativi Android.</p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="#progetti" data-i18n="ui.cta.projects">Guarda i progetti</a>
+      <a class="btn" href="#contatti" data-i18n="ui.cta.contact">Contattami</a>
+    </div>
+    <dl class="facts" id="facts"></dl>
+  </section>
+
+  <!-- ── Chi sono ─────────────────────────────────────────── -->
+  <section class="section" id="chi-sono">
+    <h2 class="section__title"><span class="mono section__num">01</span><span data-i18n="ui.nav.about">Chi sono</span></h2>
+    <div class="prose" id="about-body"></div>
+  </section>
+
+  <!-- ── Competenze ───────────────────────────────────────── -->
+  <section class="section" id="competenze">
+    <h2 class="section__title"><span class="mono section__num">02</span><span data-i18n="ui.nav.stack">Competenze</span></h2>
+    <div class="stack" id="stack"></div>
+  </section>
+
+  <!-- ── Progetti ─────────────────────────────────────────── -->
+  <section class="section" id="progetti">
+    <h2 class="section__title"><span class="mono section__num">03</span><span data-i18n="ui.nav.projects">Progetti</span></h2>
+    <p class="section__lead" data-i18n="ui.projectsLead">Applicativi Android su cui ho lavorato. Apri una scheda per screenshot e video.</p>
+    <div class="filters" id="filters" role="group" aria-label="Filtri progetti"></div>
+    <div class="grid" id="projects"></div>
+  </section>
+
+  <!-- ── Percorso ─────────────────────────────────────────── -->
+  <section class="section" id="percorso">
+    <h2 class="section__title"><span class="mono section__num">04</span><span data-i18n="ui.nav.experience">Percorso</span></h2>
+    <ol class="timeline" id="timeline"></ol>
+  </section>
+
+  <!-- ── Contatti ─────────────────────────────────────────── -->
+  <section class="section" id="contatti">
+    <h2 class="section__title"><span class="mono section__num">05</span><span data-i18n="ui.nav.contact">Contatti</span></h2>
+    <p class="section__lead" id="contact-text"></p>
+    <div class="contact">
+      <div class="contact__field">
+        <span class="mono label" data-i18n="ui.emailLabel">E-mail</span>
+        <div class="contact__row">
+          <code id="email-value">—</code>
+          <button type="button" class="btn btn--small" id="copy-email" data-i18n="ui.copy">Copia</button>
+        </div>
+      </div>
+      <ul class="contact__links" id="contact-links"></ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span class="mono" id="footer-text">—</span>
+  </footer>
+</main>
+
+<!-- ── Scheda progetto ────────────────────────────────────── -->
+<div class="modal" id="modal" hidden>
+  <div class="modal__backdrop" data-close></div>
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button type="button" class="modal__close" id="modal-close" aria-label="Chiudi">&times;</button>
+    <div class="modal__scroll">
+      <div class="modal__stage" id="modal-stage"></div>
+      <div class="modal__thumbs" id="modal-thumbs"></div>
+      <div class="modal__body">
+        <p class="eyebrow mono" id="modal-meta"></p>
+        <h3 id="modal-title"></h3>
+        <div class="prose" id="modal-desc"></div>
+        <ul class="bullets" id="modal-highlights"></ul>
+        <div class="tags" id="modal-tags"></div>
+        <div class="modal__links" id="modal-links"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/content.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>

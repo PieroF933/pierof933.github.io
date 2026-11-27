@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Segnaposto cover video">
+  <rect width="1600" height="1000" fill="#070a0e"/>
+  <g stroke="#18222c" stroke-width="1">
+    <path d="M0 250h1600M0 500h1600M0 750h1600"/>
+    <path d="M400 0v1000M800 0v1000M1200 0v1000"/>
+  </g>
+  <g transform="translate(200 180)">
+    <rect width="560" height="320" rx="10" fill="#131a22" stroke="#202b36" stroke-width="2"/>
+    <circle cx="280" cy="160" r="54" fill="none" stroke="#e8a33d" stroke-width="4"/>
+    <path d="M266 134l52 26-52 26z" fill="#e8a33d"/>
+  </g>
+  <g transform="translate(820 180)">
+    <rect width="560" height="320" rx="10" fill="#0b0f14" stroke="#202b36" stroke-width="2"/>
+    <rect x="40" y="40" width="200" height="12" rx="6" fill="#202b36"/>
+    <rect x="40" y="250" width="480" height="30" rx="8" fill="#131a22"/>
+    <rect x="40" y="250" width="180" height="30" rx="8" fill="#8a6224"/>
+  </g>
+  <text x="200" y="640" font-family="IBM Plex Mono, monospace" font-size="30" fill="#5d6b7c" letter-spacing="4">COVER VIDEO — SEGNAPOSTO</text>
+  <text x="200" y="690" font-family="IBM Plex Mono, monospace" font-size="22" fill="#3b4854" letter-spacing="2">usa un fotogramma del video come poster</text>
+</svg>

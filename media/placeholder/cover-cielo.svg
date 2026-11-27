@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Cielo, meteo con cielo animato">
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#21204a"/>
+      <stop offset="0.55" stop-color="#8e4a68"/>
+      <stop offset="1" stop-color="#f3a055"/>
+    </linearGradient>
+    <radialGradient id="alone" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff9f5a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff9f5a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="curva" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#cielo)"/>
+  <circle cx="1080" cy="330" r="340" fill="url(#alone)"/>
+  <circle cx="1080" cy="330" r="92" fill="#ffd9a0"/>
+  <g fill="#ffffff" opacity="0.16">
+    <ellipse cx="330" cy="300" rx="190" ry="70"/>
+    <ellipse cx="450" cy="268" rx="140" ry="82"/>
+    <ellipse cx="560" cy="306" rx="120" ry="58"/>
+  </g>
+  <g fill="#ffffff" opacity="0.1">
+    <ellipse cx="1180" cy="520" rx="210" ry="66"/>
+    <ellipse cx="1310" cy="494" rx="150" ry="78"/>
+  </g>
+  <g opacity="0.9">
+    <path d="M140 790 C 320 700, 470 690, 620 740 S 940 860, 1120 760 S 1380 660, 1460 700"
+          fill="none" stroke="#fdf3e6" stroke-width="7" stroke-linecap="round"/>
+    <path d="M140 790 C 320 700, 470 690, 620 740 S 940 860, 1120 760 S 1380 660, 1460 700 L1460 900 L140 900 Z"
+          fill="url(#curva)"/>
+    <circle cx="1460" cy="700" r="15" fill="#fdf3e6"/>
+  </g>
+  <text x="140" y="180" font-family="Segoe UI, sans-serif" font-size="40" font-weight="600" fill="#fdf3e6" letter-spacing="2">CIELO</text>
+  <text x="140" y="228" font-family="Consolas, monospace" font-size="24" fill="#fdf3e6" opacity="0.75" letter-spacing="2">Flutter · CustomPainter</text>
+</svg>

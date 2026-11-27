@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Segnaposto cover">
+  <rect width="1600" height="1000" fill="#0b0f14"/>
+  <g stroke="#18222c" stroke-width="1">
+    <path d="M0 200h1600M0 400h1600M0 600h1600M0 800h1600"/>
+    <path d="M200 0v1000M400 0v1000M600 0v1000M800 0v1000M1000 0v1000M1200 0v1000M1400 0v1000"/>
+  </g>
+  <g transform="translate(150 190)">
+    <rect width="520" height="300" rx="14" fill="#131a22" stroke="#202b36" stroke-width="2"/>
+    <rect x="40" y="46" width="240" height="18" rx="9" fill="#e8a33d"/>
+    <rect x="40" y="92" width="380" height="12" rx="6" fill="#202b36"/>
+    <rect x="40" y="120" width="300" height="12" rx="6" fill="#202b36"/>
+    <circle cx="430" cy="215" r="46" fill="none" stroke="#e8a33d" stroke-width="4"/>
+    <circle cx="430" cy="215" r="14" fill="#e8a33d"/>
+  </g>
+  <g transform="translate(740 190)">
+    <rect width="340" height="140" rx="12" fill="#131a22" stroke="#202b36" stroke-width="2"/>
+    <rect x="30" y="38" width="160" height="14" rx="7" fill="#2e3b48"/>
+    <rect x="30" y="72" width="240" height="10" rx="5" fill="#202b36"/>
+  </g>
+  <g transform="translate(740 370)">
+    <rect width="340" height="140" rx="12" fill="#131a22" stroke="#202b36" stroke-width="2"/>
+    <rect x="30" y="38" width="200" height="14" rx="7" fill="#2e3b48"/>
+    <rect x="30" y="72" width="140" height="10" rx="5" fill="#202b36"/>
+  </g>
+  <text x="150" y="640" font-family="IBM Plex Mono, monospace" font-size="30" fill="#5d6b7c" letter-spacing="4">COVER 16:10 — SEGNAPOSTO</text>
+  <text x="150" y="690" font-family="IBM Plex Mono, monospace" font-size="22" fill="#3b4854" letter-spacing="2">sostituisci in media/projects/&lt;id&gt;/cover.png</text>
+</svg>

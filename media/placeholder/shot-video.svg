@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Segnaposto vista telecamere">
+  <rect width="1600" height="1000" fill="#070a0e"/>
+  <g fill="#0b0f14" stroke="#202b36" stroke-width="2">
+    <rect x="48" y="60" width="736" height="414" rx="10"/>
+    <rect x="816" y="60" width="736" height="414" rx="10"/>
+    <rect x="48" y="506" width="736" height="414" rx="10"/>
+    <rect x="816" y="506" width="736" height="414" rx="10"/>
+  </g>
+  <g fill="none" stroke="#2e3b48" stroke-width="4">
+    <circle cx="416" cy="267" r="58"/>
+    <circle cx="1184" cy="267" r="58"/>
+    <circle cx="416" cy="713" r="58"/>
+  </g>
+  <g transform="translate(1126 655)">
+    <circle cx="58" cy="58" r="58" fill="none" stroke="#e8a33d" stroke-width="4"/>
+    <path d="M44 32l44 26-44 26z" fill="#e8a33d"/>
+  </g>
+  <g font-family="IBM Plex Mono, monospace" font-size="20" fill="#5d6b7c" letter-spacing="2">
+    <text x="76" y="110">CAM 01</text>
+    <text x="844" y="110">CAM 02</text>
+    <text x="76" y="556">CAM 03</text>
+    <text x="844" y="556">CAM 04</text>
+  </g>
+  <text x="800" y="975" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="24" fill="#3b4854" letter-spacing="3">SCREENSHOT SEGNAPOSTO</text>
+</svg>

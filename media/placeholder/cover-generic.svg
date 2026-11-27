@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Segnaposto cover generica">
+  <rect width="1600" height="1000" fill="#0b0f14"/>
+  <rect x="60" y="60" width="1480" height="880" rx="18" fill="none" stroke="#202b36" stroke-width="3" stroke-dasharray="16 14"/>
+  <g transform="translate(700 380)">
+    <rect width="200" height="240" rx="22" fill="none" stroke="#e8a33d" stroke-width="6"/>
+    <rect x="60" y="212" width="80" height="8" rx="4" fill="#e8a33d"/>
+  </g>
+  <text x="800" y="740" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="30" fill="#5d6b7c" letter-spacing="4">AGGIUNGI QUI LA TUA COVER</text>
+</svg>

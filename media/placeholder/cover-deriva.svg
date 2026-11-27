@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Deriva, navigazione per vibrazione">
+  <rect width="1600" height="1000" fill="#0f141a"/>
+  <rect x="80" y="70" width="1440" height="860" rx="16" fill="#161d25" stroke="#26323f" stroke-width="2"/>
+
+  <g stroke="#1d2732" stroke-width="1">
+    <path d="M80 300h1440M80 530h1440M80 760h1440"/>
+    <path d="M440 70v860M800 70v860M1160 70v860"/>
+  </g>
+
+  <path d="M330 760 C 520 720, 620 620, 790 560 S 1080 470, 1240 330"
+        fill="none" stroke="#e8a33d" stroke-width="4" stroke-dasharray="14 12" opacity="0.65"/>
+
+  <g transform="translate(1240 330)">
+    <circle r="96" fill="none" stroke="#63b98f" stroke-width="4"/>
+    <g transform="translate(-58 -58)">
+      <rect width="116" height="116" fill="#ffffff"/>
+      <g fill="#0f141a">
+        <rect x="19" y="19" width="19" height="19"/><rect x="58" y="19" width="19" height="19"/>
+        <rect x="38" y="38" width="19" height="19"/><rect x="77" y="38" width="19" height="19"/>
+        <rect x="19" y="58" width="19" height="19"/><rect x="58" y="58" width="19" height="19"/>
+        <rect x="77" y="77" width="19" height="19"/><rect x="38" y="77" width="19" height="19"/>
+      </g>
+    </g>
+    <text x="0" y="146" text-anchor="middle" font-family="Consolas, monospace" font-size="22" fill="#63b98f">23 · bersaglio</text>
+  </g>
+
+  <g transform="translate(330 760) rotate(-32)">
+    <g transform="translate(-76 -76)">
+      <rect width="152" height="152" fill="#ffffff"/>
+      <g fill="#0f141a">
+        <rect x="25" y="25" width="25" height="25"/><rect x="76" y="25" width="25" height="25"/>
+        <rect x="101" y="50" width="25" height="25"/><rect x="50" y="50" width="25" height="25"/>
+        <rect x="25" y="76" width="25" height="25"/><rect x="101" y="101" width="25" height="25"/>
+        <rect x="50" y="101" width="25" height="25"/>
+      </g>
+    </g>
+    <line x1="0" y1="0" x2="180" y2="0" stroke="#63b98f" stroke-width="5"/>
+    <path d="M180 0 l-22 -12 l0 24 z" fill="#63b98f"/>
+  </g>
+  <text x="330" y="900" text-anchor="middle" font-family="Consolas, monospace" font-size="22" fill="#e8a33d">7 · controller</text>
+
+  <g transform="translate(1120 830)" font-family="Consolas, monospace" font-size="24" fill="#8296a9">
+    <text x="0" y="0">distanza   142 mm</text>
+    <text x="0" y="40">impulsi    184</text>
+    <text x="0" y="80" fill="#63b98f">avanti  +1,09 mm</text>
+  </g>
+
+  <text x="130" y="150" font-family="Segoe UI, sans-serif" font-size="34" font-weight="600" fill="#dbe3ec" letter-spacing="3">DERIVA</text>
+  <text x="130" y="192" font-family="Consolas, monospace" font-size="22" fill="#5d6b7c" letter-spacing="2">Python · OpenCV · ArUco</text>
+</svg>
