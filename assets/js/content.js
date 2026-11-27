@@ -61,17 +61,32 @@ const CONTENT = {
     },
     {
       group: { it: "Android e multipiattaforma", en: "Android and cross-platform" },
-      items: ["Android SDK", "Activity & Fragment", "Jetpack Compose", "Flutter",
+      items: ["Android SDK", "Activity & Fragment", "Jetpack Compose", "Material 3", "StateFlow",
+              "Canvas & grafica custom", "Layout adattivi", "Flutter", "CustomPainter",
               "RecyclerView / Adapter", "Service & foreground service",
-              "Media3 / ExoPlayer", "SQLite", "Material Components", "Risorse responsive", "MultiDex"]
+              "Media3 / ExoPlayer", "SQLite", "Android Keystore", "Material Components", "MultiDex"]
     },
     {
       group: { it: "Comunicazione & hardware", en: "Communication & hardware" },
-      items: ["Socket TCP/IP", "Protocolli binari", "ONVIF", "RTSP / MJPEG", "USB & RS485", "Kiosk / launcher", "Linphone"]
+      items: ["Socket TCP/IP", "Protocolli binari", "ONVIF", "SOAP / WS-Security", "RTSP / MJPEG",
+              "USB & RS485", "Kiosk / launcher", "Linphone"]
+    },
+    {
+      group: { it: "Python e desktop", en: "Python and desktop" },
+      items: ["Tkinter", "OpenCV", "ArUco", "NumPy", "unittest"]
+    },
+    {
+      group: { it: "Domotica e self-hosting", en: "Home automation and self-hosting" },
+      items: ["Home Assistant", "Shelly (Plus Uni, 1PM)", "Debian server", "Docker", "AdGuard Home (DNS / DHCP)",
+              "Sensori DS18B20", "Integrazione centrali d'allarme", "Alexa"]
+    },
+    {
+      group: { it: "AI in locale", en: "Local AI" },
+      items: ["LM Studio", "Pi Agent", "Modelli linguistici in locale"]
     },
     {
       group: { it: "Strumenti", en: "Tools" },
-      items: ["Android Studio", "Gradle", "Git", "GitHub", "ADB", "Wireshark", "Figma"]
+      items: ["Android Studio", "Gradle", "Git", "GitHub", "GitHub Pages", "ADB", "Wireshark", "Figma"]
     },
     {
       group: { it: "Altre competenze", en: "Other skills" },
