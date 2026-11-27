@@ -32,10 +32,6 @@ summary: { it: "Testo italiano", en: "English text" }
 Dentro il file trovi, nell'ordine: dati personali e link, testo di "Chi sono", competenze,
 progetti, percorso, contatti, etichette dell'interfaccia.
 
-> I testi attuali sono una **bozza da rivedere**: sono scritti a partire dal tipo di lavoro che
-> fai, ma date, ruoli e descrizioni vanno controllati prima di pubblicare. Le voci con
-> "da completare" vanno sostituite.
-
 ## Aggiungere un progetto
 
 1. Crea la cartella `media/projects/<id>/` e mettici dentro immagini e video.
