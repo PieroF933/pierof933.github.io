@@ -382,11 +382,11 @@ analitica, nessun tracciamento. Non serve un banner di consenso.
 
 ## 11. Limiti noti
 
-- **Nessun `sitemap.xml` né `robots.txt`.** Per un sito di una pagina sola è
-  ininfluente, ma vanno aggiunti se in futuro si creano pagine separate.
-- **Nessun tag Open Graph.** Condividendo il link su LinkedIn o in chat non
-  compare un'anteprima. Sono quattro `<meta>` da aggiungere in `<head>`, più
-  un'immagine 1200×630.
+- **Anteprima e indicizzazione sono in italiano.** I tag Open Graph in
+  `<head>` e l'immagine `media/og-image.jpg` (1200×630) sono fissi: chi
+  condivide il link vede sempre la versione italiana. `sitemap.xml` elenca la
+  sola pagina principale: va aggiornata (`lastmod`) quando i contenuti cambiano
+  molto, e va estesa se in futuro si creano pagine separate.
 - **Il titolo della pagina non cambia con la lingua.** È statico
   nell'`<head>`.
 - **Nessun fallback senza JavaScript.** A JS disattivato la pagina resta vuota.
